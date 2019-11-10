@@ -10,10 +10,10 @@
 }
 
 ul li {
-  position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 li {
@@ -50,12 +50,24 @@ ul li a:hover {
 }
 
 #sidebar-container {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-decoration: none;
-  background-color: #000;
- }
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+}
+#sidebar ul li a:hover {
+   background-color: #000;
+}
+#sidebar ul li a {
+   display: block;
+   padding: 15px 0px;
+   color: #fff;
+   text-decoration: none;
+}
