@@ -1,11 +1,12 @@
 #main-navbar {
   background-color: blue;
+  overflow: hidden;
 }
 
 #navbar-container {
-  overflow: hidden;
   float: left;
   width: 100%;
+  position: relative;
 }
 
 ul li {
